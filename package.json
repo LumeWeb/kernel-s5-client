@@ -14,7 +14,9 @@
     "readme": "ERROR: No README data found!",
     "_id": "@lumeweb/kernel-s5-client@0.1.0",
     "scripts": {
-        "prepare": "presetter bootstrap"
+        "prepare": "presetter bootstrap",
+        "build": "run build",
+        "semantic-release": "semantic-release"
     },
     "dependencies": {
         "@lumeweb/libkernel": "0.1.0-develop.36",
