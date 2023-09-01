@@ -1,0 +1,28 @@
+{
+    "name": "@lumeweb/kernel-s5-client",
+    "version": "0.1.0",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/kernel-s5-client.git"
+    },
+    "devDependencies": {
+        "@lumeweb/node-library-preset": "^0.2.7",
+        "presetter": "*"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "@lumeweb/kernel-s5-client@0.1.0",
+    "scripts": {
+        "prepare": "presetter bootstrap"
+    },
+    "dependencies": {
+        "@lumeweb/libkernel": "0.1.0-develop.36",
+        "@lumeweb/libs5": "^0.1.0-develop.25"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "lib"
+    ]
+}
