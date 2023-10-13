@@ -2,7 +2,7 @@ import { factory, NetworkClient } from "@lumeweb/libkernel/module";
 import type { SignedRegistryEntry } from "@lumeweb/libs5";
 
 export const MODULE =
-  "zdiT6quMF8gh8BhQdXE7CZYhp8S1BxSgsucSS48WuTGdars1noejvak6Qo";
+  "zrjLjKVByzt233rfcjWvTQXrMfGFa11oBLydPaUk7gwnC2d";
 
 export interface RegistryEntry {
   key: Uint8Array;
