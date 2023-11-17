@@ -1,3 +1,10 @@
+# [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/kernel-s5-client/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-11-17)
+
+
+### Features
+
+* add stat method ([7aa6225](https://git.lumeweb.com/LumeWeb/kernel-s5-client/commit/7aa6225b4e19b065d420459278ac62e16384af0a))
+
 # [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/kernel-s5-client/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-11-17)
 
 
