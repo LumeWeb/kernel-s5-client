@@ -50,6 +50,9 @@ export class S5Client extends NetworkClient {
   public async cat(cid: string) {
     return this.callModuleReturn("cat", { cid });
   }
+  public async stat(cid: string) {
+    return this.callModuleReturn("stat", { cid });
+  }
 }
 
 export const createClient = factory<S5Client>(S5Client, MODULE);
