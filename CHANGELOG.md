@@ -1,3 +1,10 @@
+# [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/kernel-s5-client/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-11-17)
+
+
+### Features
+
+* add cat method ([5805dab](https://git.lumeweb.com/LumeWeb/kernel-s5-client/commit/5805dabe277fa2fd4f2a43228b8a1bdb6c2dcf06))
+
 # [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/kernel-s5-client/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-10-13)
 
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/kernel-s5-client/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-09-03)
