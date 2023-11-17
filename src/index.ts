@@ -1,8 +1,7 @@
 import { factory, NetworkClient } from "@lumeweb/libkernel/module";
 import type { SignedRegistryEntry } from "@lumeweb/libs5";
 
-export const MODULE =
-  "zrjLjKVByzt233rfcjWvTQXrMfGFa11oBLydPaUk7gwnC2d";
+export const MODULE = "zrjLjKVByzt233rfcjWvTQXrMfGFa11oBLydPaUk7gwnC2d";
 
 export interface RegistryEntry {
   key: Uint8Array;
@@ -46,6 +45,10 @@ export class S5Client extends NetworkClient {
       done = true;
       end();
     };
+  }
+
+  public async cat(cid: string) {
+    return this.callModuleReturn("cat", { cid });
   }
 }
 
